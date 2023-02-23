@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Hamiltoniano
+comment0.text=\ trabajo\ 1\ grafos\ \r\n\ \ \ Es\ un\ grafo\ hamiltoniano\ y\ mostrar\ un\ camino\ o\ ciclo\ \r\n\ \ \ Josue\ Jonathan\ Perez\ Valenzuela\r\n
+comment1.params=grafo
+comment1.target=boolean\ hamcamino(int[][])
+comment1.text=\ Aqui\ resolveremos\ el\ problema\ del\ camino\ hamiltoniano\ utilizando\ backtraking\r\n\ \ \ \ \ \ \ y\ tambien\ usaremos\ el\ metodo\ ya\ implementado\ "hamcaminoUtil",\r\n\ \ \ \ \ \ \ devolveremos\ false\ si\ no\ es\ un\ grafo\ de\ hamiltoniano,\r\n\ \ \ \ \ \ \ si\ lo\ es\ devolveremos\ true\ e\ imprimira\ el\ camino\ o\ camino\r\nOJO\:\ puede\ haber\ mas\ de\ unsa\ sol
+comment2.params=grafo\ camino\ pos\ V
+comment2.target=boolean\ hamcaminoUtil(int[][],\ int[],\ int,\ int)
+comment2.text=\ Metodo\ que\ devolvera\ true\ si\ existe\ un\ camino\ o\ ciclo\ "y\ lo\ imprime"\ o\ false\ en\ caso\ de\ \r\nque\ no\ sea\ un\ grafo\ de\ hamilton
+comment3.params=v\ grafo\ camino\ pos
+comment3.target=boolean\ esValido(int,\ int[][],\ int[],\ int)
+comment3.text=\ funcion\ para\ verificar\ si\ el\ vertice\ "V"\ puede\ ser\ agregado\ en\ la\ "pos"\ en\ el\ \r\ncamino\ hamiltoniano\ que\ tenemos\ hasta\ el\ momento
+comment4.params=camino\ V
+comment4.target=void\ imprimirSol(int[],\ int)
+comment4.text=Metodo\ para\ imprimir\ las\ sol
+comment5.params=
+comment5.target=void\ main()
+numComments=6
